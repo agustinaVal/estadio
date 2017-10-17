@@ -1,0 +1,73 @@
+
+*{
+	margin:10px;
+	padding: 0px;
+}
+
+.estadio{
+	width: 1000px;
+	height: 400px;
+	background-color: green;
+	position: relative;		
+}
+
+div .marco{
+	position: absolute;
+	width: 950px;
+	height: 350px;
+	top: 10px;
+	left: 10px;
+	background-color: green;
+	border: 5px solid white;
+}
+
+div #circulo{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-radius: 50%;
+	top:60px;
+	bottom:60px;
+	left: 340px;
+	border: 4px solid white;
+	position: absolute;
+}
+
+div.arco1{
+position: absolute;
+width: 80px;
+height: 160px;
+background-color: green;
+border: 3px solid white;
+top:80px;
+right: 858px;
+}
+
+
+div.arco2{
+position: absolute;
+width: 80px;
+height: 160px;
+background-color: green;
+border: 3px solid white;
+top: 80px;
+left:858px;
+}
+
+#ball1{
+position: absolute;
+top: 15px;
+left: 430px;
+}
+
+#ball2{
+	position: absolute;
+	right: 75px;
+	bottom: 110px;
+}
+
+#ball3{
+	position: absolute;
+	left: 49px;
+	top:82px;
+}
